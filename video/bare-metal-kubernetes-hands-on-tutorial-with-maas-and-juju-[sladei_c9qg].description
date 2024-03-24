@@ -1,0 +1,53 @@
+In this video tutorial, you will go hands-on and build your own simulated bare metal Kubernetes cluster using just a single computer 💻 with Anton Smith, product manager for MAAS. Along the way, you’ll get to use and learn about some Linux networking, MAAS, LXD, Ceph, Juju and Kubernetes, and at the end deploy an application to your new K8s cluster ✨. 
+
+To read more about the context for this tutorial, you should check out our bare metal Kubernetes whitepaper 📖: https://ubuntu.com/engage/bare-metal-kubernetes
+
+Interested in more? Don't miss out on watching this companion webinar where Anton Smith, the author of this youtube video, discusses and presents bare metal Kubernetes in more detail, as well as answering questions from viewers: https://ubuntu.com/engage/introduction-to-bare-metal-cloud
+
+To follow this tutorial, clone the following repository to the machine you will work on, and follow the instructions in the video:
+https://github.com/antongisli/maas-baremetal-k8s-tutorial 
+
+The video is divided into several sections 🔖:
+00:00 Introduction and goals
+01:44 Setup overview and steps
+02:55 Installing MAAS, LXD and setting up networking
+07:07 Configuring MAAS
+09:50 Creating and tagging machines in LXD using MAAS
+16:43 Installing juju, bootstrapping the metal cloud, adding machines to Juju
+26:20 Installing and configuring Ceph storage
+30:44 Installing K8s cluster and relating it to Ceph
+35:42 Add K8s cluster to Juju and bootstrap a controller
+36:09 Deploy hello-kubecon application to the K8s cluster and configure an ingress
+38:28 Enable external access and test the hello-kubecon application
+40:34  Scale up and down the K8s cluster and hello-kubecon application using Juju
+47:03 How to remove things/clean up
+49:52 Summary and wrapup
+
+To learn more about...
+- MAAS check https://maas.io
+- LXD check https://linuxcontainers.org
+- Juju check https://juju.is 
+
+Read about the simple way to manage Kubernetes clusters here: 
+https://juju.is/?_ga=2.141398002.1160905090.1637836535-12785255.1629707421
+
+There is also a simple tutorial focused just on MAAS where you can try it in minutes ⏰ on your laptop here: https://maas.io/tutorials/build-a-maas-and-lxd-environment-in-30-minutes-with-multipass-on-ubuntu#1-overview
+
+#kubernetes #Linux #baremetal #MAAS #opensource
+Subscribe to Ubuntu on YouTube for more content like this:
+https://bit.ly/3Sp6PKY
+
+And follow our other social accounts:
+
+LinkedIn: 
+https://bit.ly/3Jw6jGN
+Twitter: 
+https://bit.ly/3OXSIJE
+Facebook:
+https://bit.ly/3Q15Yyn
+Instagram:
+https://bit.ly/3vE7Kxk
+
+For more information visit https://www.ubuntu.com and https://www.canonical.com
+
+#linux #ubuntu #canonical #opensource
