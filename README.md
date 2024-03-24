@@ -1,4 +1,4 @@
-# Bare metal Kubernetes with MAAS, LXD, and Juju
+# Maas Stack
 
 ## Intro
 
