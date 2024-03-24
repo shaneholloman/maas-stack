@@ -8,7 +8,7 @@ It is designed to be used in conjunction with an explanatory video tutorial: <ht
 
 ## How to use
 
-[![alt-text](./video/bare-metal-kubernetes-hands-on-tutorial-with-maas-and-juju-[sladei_c9qg].png "Hover text")](./video/bare-metal-kubernetes-hands-on-tutorial-with-maas-and-juju-[sladei_c9qg].mp4)
+![just a screenshot](./video/bare-metal-kubernetes-hands-on-tutorial-with-maas-and-juju-[sladei_c9qg].png "just a screenshot")
 
 Read maas-setup.sh. The script is not fully automated and requires manual intervention at times. Read the comments to understand the process.
 
