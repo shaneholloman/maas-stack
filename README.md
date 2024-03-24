@@ -8,36 +8,7 @@ It is designed to be used in conjunction with an explanatory video tutorial: <ht
 
 ## How to use
 
-<video id="myVideo" width="100%" height="auto" controls>
-  <source src="./video/bare-metal-kubernetes-hands-on-tutorial-with-maas-and-juju-[sladei_c9qg].mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-
-The video is divided into several sections 🔖:
-
-- <a href="#" onclick="jumpToTime('00:00')">00:00 Introduction and goals</a>
-- <a href="#" onclick="jumpToTime('01:44')">01:44 Setup overview and steps</a>
-- <a href="#" onclick="jumpToTime('02:55')">02:55 Installing MAAS, LXD and setting up networking</a>
-- <a href="#" onclick="jumpToTime('07:07')">07:07 Configuring MAAS</a>
-- <a href="#" onclick="jumpToTime('09:50')">09:50 Creating and tagging machines in LXD using MAAS</a>
-- <a href="#" onclick="jumpToTime('16:43')">16:43 Installing juju, bootstrapping the metal cloud, adding machines to Juju</a>
-- <a href="#" onclick="jumpToTime('26:20')">26:20 Installing and configuring Ceph storage</a>
-- <a href="#" onclick="jumpToTime('30:44')">30:44 Installing K8s cluster and relating it to Ceph</a>
-- <a href="#" onclick="jumpToTime('35:42')">35:42 Add K8s cluster to Juju and bootstrap a controller</a>
-- <a href="#" onclick="jumpToTime('36:09')">36:09 Deploy hello-kubecon application to the K8s cluster and configure an ingress</a>
-- <a href="#" onclick="jumpToTime('38:28')">38:28 Enable external access and test the hello-kubecon application</a>
-- <a href="#" onclick="jumpToTime('40:34')">40:34 Scale up and down the K8s cluster and hello-kubecon application using Juju</a>
-- <a href="#" onclick="jumpToTime('47:03')">47:03 How to remove things/clean up</a>
-- <a href="#" onclick="jumpToTime('49:52')">49:52 Summary and wrapup</a>
-
-<script>
-function jumpToTime(time) {
-  var video = document.getElementById('myVideo');
-  var parts = time.split(':');
-  video.currentTime = (+parts[0]) * 60 * 60 + (+parts[1]) * 60;
-  video.play();
-}
-</script>
+[![alt-text](./video/bare-metal-kubernetes-hands-on-tutorial-with-maas-and-juju-[sladei_c9qg].png "Hover text")](./video/bare-metal-kubernetes-hands-on-tutorial-with-maas-and-juju-[sladei_c9qg].mp4)
 
 Read maas-setup.sh. The script is not fully automated and requires manual intervention at times. Read the comments to understand the process.
 
